@@ -23,6 +23,8 @@
             function increment() {
                 score += 1; // Increment the score
                 document.getElementById("score").textContent = score.toString(); // Update the score display
+                var audio = new Audio('click.m4a');
+                audio.play();
             }
         </script>
     </body>
