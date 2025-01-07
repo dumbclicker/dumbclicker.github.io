@@ -9,6 +9,7 @@
             .clickbutton {
                 width: 200;
                 height: 200;
+                size: 100px;
             }
         </style>
     </head>
@@ -21,7 +22,7 @@
             // Correctly define the function
             function increment() {
                 score += 1; // Increment the score
-                document.getElementById("clickbutton").textContent = "<h1>", score.toString(); "</h1>" // Update the score display
+                document.getElementById("clickbutton").textContent = score.toString(); // Update the score display
                 var audio = new Audio('click.m4a');
                 audio.play();
             }
