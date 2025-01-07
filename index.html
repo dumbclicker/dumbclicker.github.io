@@ -21,7 +21,7 @@
             // Correctly define the function
             function increment() {
                 score += 1; // Increment the score
-                document.getElementById("clickbutton").textContent = <h1>score.toString();</h1> // Update the score display
+                document.getElementById("clickbutton").textContent = "<h1>", score.toString(); "</h1>" // Update the score display
                 var audio = new Audio('click.m4a');
                 audio.play();
             }
